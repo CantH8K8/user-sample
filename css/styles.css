@@ -1,7 +1,36 @@
 /* Your Awesome Styling*/
 
-/* Form Section */
+/* Bio and Resume */
 
+.bio #bio {
+    background: lavender;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio #bio section {
+    margin: 0 10px;
+    width: 50%;
+}
+
+.bio section:nth-child(1) {
+    width: 400px;
+}
+
+.bio #resume {
+    background: lavender;
+    background-image: linear-gradient(lavender, lightcyan);
+    display: flex;
+    flex-flow: wrap;
+}
+
+.bio #resume section {
+    flex: 20%;
+    
+}
+
+
+/* Form */
 
 form {
   background: aliceblue;
@@ -18,6 +47,8 @@ input [type="submit"] {
     border: 0;
 }
 
+
+/* Diagnostic Styling */
 
 /* Mobile: 320px = 20em */
 @media screen and (min-width: 20em) { 
