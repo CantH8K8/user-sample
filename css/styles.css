@@ -1,6 +1,22 @@
 /* Your Awesome Styling*/
 
+/* Form Section */
 
+
+form {
+  background: aliceblue;
+  width: 200px;
+}
+
+label, input {
+  display: block;
+    margin: 1EM;
+  width: auto;
+}
+
+input [type="submit"] {
+    border: 0;
+}
 
 
 /* Mobile: 320px = 20em */
