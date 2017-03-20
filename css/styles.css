@@ -6,6 +6,8 @@
     background: lavender;
     display: flex;
     justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
 }
 
 .bio #bio section {
@@ -14,14 +16,18 @@
 }
 
 .bio section:nth-child(1) {
-    width: 400px;
+    width: 300px;
 }
 
 .bio #resume {
     background: lavender;
     background-image: linear-gradient(lavender, lightcyan);
     display: flex;
-    flex-flow: wrap;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
 }
 
 .bio #resume section {
